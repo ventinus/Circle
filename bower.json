@@ -1,0 +1,11 @@
+{
+  "name": "assemble",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "modernizr": "components/modernizr#2.8.3",
+    "requirejs": "2.1.16"
+  },
+  "devDependencies": {}
+}
