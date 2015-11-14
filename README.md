@@ -1,3 +1,5 @@
+[View example on CodePen here](http://codepen.io/ventinus/pen/avLyBQ)
+
 # Basic Boilerplate
 
 > This is a simple boilerplate using Grunt & Assemble
