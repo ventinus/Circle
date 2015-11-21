@@ -6,7 +6,8 @@
     "jquery": "~2.1.4",
     "modernizr": "components/modernizr#2.8.3",
     "requirejs": "2.1.16",
-    "hammerjs": "~2.0.4"
+    "hammerjs": "~2.0.4",
+    "jquery-hammerjs": "~2.0.0"
   },
   "devDependencies": {}
 }

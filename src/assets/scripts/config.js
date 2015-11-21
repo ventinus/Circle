@@ -32,32 +32,38 @@
  *     }
  */
 require.config({
-    paths: {
-        requirejs: '../vendor/requirejs/require',
-        jquery: '../vendor/jquery/dist/jquery',
-        throttle: './utils/Throttle',
-        hammer: '../vendor/hammerjs/hammer'
+  paths: {
+    'requirejs':        '../vendor/requirejs/require',
+    'jquery':           '../vendor/jquery/dist/jquery',
+    'throttle':         './utils/Throttle',
+    'hammer':           '../vendor/hammerjs/hammer.min',
+    'transform':        './utils/Transform'
+    // 'jquery-hammer':    '../vendor/jquery-hammerjs/jquery.hammer'
+  },
+  shim: {
+    'jquery': {
+      exports: '$'
     },
-    shim: {
-    	jquery: {
-            exports: '$'
-        },
-        throttle: {
-            deps: [
-                'jquery'
-            ]
-        // },
-        // hammer: {
-        //     exports: 'hammer'
-        }
+    'throttle': {
+      deps: [
+        'jquery'
+      ]
     },
-    waitSeconds: 120,
-    packages: [
+    'transform': {
+      deps: [
+        'jquery'
+      ]
+    }
+  },
+  waitSeconds: 120,
+  packages: [
 
-    ]
+  ]
 });
 
 /**
  * Module definitions for pre-loaded scripts.
  */
-define('modernizr', function() { return window.Modernizr; }); // jshint ignore:line
+define('modernizr', function() {
+  return window.Modernizr;
+}); // jshint ignore:line
