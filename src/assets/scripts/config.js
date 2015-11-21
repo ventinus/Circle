@@ -35,7 +35,8 @@ require.config({
     paths: {
         requirejs: '../vendor/requirejs/require',
         jquery: '../vendor/jquery/dist/jquery',
-        throttle: './utils/Throttle'
+        throttle: './utils/Throttle',
+        hammer: '../vendor/hammerjs/hammer'
     },
     shim: {
     	jquery: {
@@ -45,6 +46,9 @@ require.config({
             deps: [
                 'jquery'
             ]
+        // },
+        // hammer: {
+        //     exports: 'hammer'
         }
     },
     waitSeconds: 120,
