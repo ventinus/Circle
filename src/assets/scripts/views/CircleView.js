@@ -3,7 +3,7 @@ import $ from 'jquery';
 import 'throttle';
 import 'transform';
 import 'hammer';
-// import 'jquery-hammer';
+import 'jquery-hammer';
 
 // Local Module Variables
 var WAIT_TIME, DRAG_END_SPEED = 1500;

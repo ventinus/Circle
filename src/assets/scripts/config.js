@@ -35,10 +35,10 @@ require.config({
   paths: {
     'requirejs':        '../vendor/requirejs/require',
     'jquery':           '../vendor/jquery/dist/jquery',
-    'throttle':         './utils/Throttle',
     'hammer':           '../vendor/hammerjs/hammer.min',
+    'jquery-hammer':    '../vendor/jquery-hammerjs/jquery.hammer',
+    'throttle':         './utils/Throttle',
     'transform':        './utils/Transform'
-    // 'jquery-hammer':    '../vendor/jquery-hammerjs/jquery.hammer'
   },
   shim: {
     'jquery': {
