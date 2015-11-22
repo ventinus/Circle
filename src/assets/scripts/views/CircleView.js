@@ -45,10 +45,15 @@ export default class CircleView {
     this.currentPosition = 0;
 
     this.startXCoords = null;
+    
     this.currentXCoords = null;
+    
     this.endXCoords = null;
+    
     this.isDragging = false;
+    
     this.currentRotation = 0;
+    
     this.rotateAmount = null;
 
     this.init();
